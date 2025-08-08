@@ -1,0 +1,95 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eee;
+  padding: 0 16px;
+}
+header {
+  background-color: #f5ba13;
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0px 0px 10px 0px black;
+}
+header h1 {
+  font-family: "McLaren", cursive;
+  font-weight: 800;
+  color: #fff;
+}
+footer {
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
+  height: 2.5rem;
+}
+footer p {
+  color: #ccc;
+}
+form {
+  position: relative;
+  background-color: #fff;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0px 1px 7px 0px rgb(59, 57, 57);
+}
+form input,
+form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  resize: none;
+  font-size: 1.2rem;
+  font-family: inherit;
+  outline: none;
+}
+form button {
+  position: absolute;
+  bottom: -18px;
+  right: 18px;
+  border-radius: 50%;
+  background-color: #f5ba13;
+  height: 36px;
+  width: 36px;
+  border: none;
+  color: #fff;
+  box-shadow: 0px 1px 3px 0px black;
+  cursor: pointer;
+  outline: none;
+}
+.note {
+  position: relative;
+  float: left;
+  width: 240px;
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 10px;
+  box-shadow: 0px 1px 3px 0px red;
+  margin: 10px;
+}
+.note h1 {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.note button {
+  position: relative;
+  float: right;
+  right: 10px;
+  background-color: #f5ba13;
+  border: none;
+  height: 25px;
+  width: 36px;
+  box-shadow: 0px 3px 7px 0px rgb(218, 143, 143);
+  cursor: pointer;
+  outline: none;
+}
