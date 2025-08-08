@@ -1,12 +1,68 @@
-# React + Vite
+## 🗒️ Keeper App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal note-taking app inspired by Google Keep, built using React.
+Users can create, view, and delete notes with a simple and interactive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ➕ Add new notes with title and content
+- 🗑️ Delete notes individually
+- 📄 Auto-expanding input area for better UX
+- 📅 Dynamic footer showing the current year
+- ⚡ Real-time updates using React useState
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📁 Project Structure
+
+```bash
+src/
+│
+├── App.jsx          # Main component managing notes state
+├── components/
+│   ├── Header.jsx   # App title bar
+│   ├── Footer.jsx   # Footer with dynamic year
+│   ├── CreateArea.jsx # Expandable form for creating notes
+│   ├── Note.jsx     # Individual note display with delete
+├── App.css          # Styling for components
+```
+
+---
+
+## 📸 UI Preview
+
+```bash
+[1]  📌 Shopping List
+     Milk, Bread, Eggs       [Delete]
+
+[2]  💡 App Idea
+     Build a weather app     [Delete]
+```
+
+---
+
+## 🛠️ Tech Stack
+
+- React (Functional Components + Hooks)
+- JavaScript (ES6)
+- CSS (custom styles)
+
+---
+
+## ▶️ Getting Started
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/keeper-app.git
+
+# Navigate into project folder
+cd keeper-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+```
