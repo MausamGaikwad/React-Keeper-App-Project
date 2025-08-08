@@ -55,7 +55,7 @@ src/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/keeper-app.git
+git clone https://github.com/MausamGaikwad/React-Keeper-App-Project.git
 
 # Navigate into project folder
 cd keeper-app
